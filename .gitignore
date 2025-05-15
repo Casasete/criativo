@@ -1,0 +1,39 @@
+# Dependencies
+/node_modules
+/.pnpm
+
+# Next.js build output
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local .env files
+.env*.local
+.env
+
+# IDE files
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# D1 local development state
+.wrangler/state/v3/d1
+
+# wrangler secrets
+.wrangler/state/v3/secrets.json
+
